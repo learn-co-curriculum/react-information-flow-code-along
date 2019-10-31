@@ -11,10 +11,10 @@ class Parent extends Component {
     }
   }
 
-  changeColor = () => {
+  changeColor = (newChildColor) => {
     this.setState({
       color: getRandomColor(),
-      childrenColor: getRandomColor()
+      childrenColor: newChildColor
     })
   }
   
