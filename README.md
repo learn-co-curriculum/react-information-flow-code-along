@@ -74,8 +74,8 @@ class Parent extends Component {
 }
 ```
 
-But we are going to want to run this `changeColor()` method when either `Child`
-component is clicked. So we are going to pass this state changing function _as a
+Because we are going to want to run this `changeColor()` method when either `Child`
+component is clicked, we are going to pass this state changing function _as a
 prop_ to both `Child` components.
 
 ```jsx
